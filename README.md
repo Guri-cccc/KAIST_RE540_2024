@@ -11,7 +11,7 @@ In this class, students are invited to build an AI-enabled autonomous rover, bas
 [USRG] Autonomous Exploration and Object Detection in Complex Multi-Floor Environments [Video](https://youtu.be/ua-bf6es4ac?feature=shared) <br/>
 
 # Hardware platform
-<img src="./images/robot_image.png" align="center" width="40%">
+<img src="./images/robot.jpg" align="center" width="40%">
 
 <details>
   
