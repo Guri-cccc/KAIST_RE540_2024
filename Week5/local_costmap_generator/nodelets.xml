@@ -1,0 +1,9 @@
+<library path="lib/libheightmap_nodelet">
+  <class name="local_costmap_generator/HeightMapNodelet"
+         type="local_costmap_generator::HeightMapNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description> 
+      Publish height map obstacles as PointCloud2.
+    </description>
+  </class>
+</library>

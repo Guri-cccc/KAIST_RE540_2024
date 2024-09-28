@@ -1,0 +1,11 @@
+<launch>
+    <arg name="csv_path"                    default="$(find graph_planner)/csv/graph_planner_gazebo.csv"/>
+    <arg name="robot_postion_topic"         default="/odom"/>
+    <arg name="use_rviz_goal"         default="false"/>
+
+    <node pkg="graph_planner" name="graph_planner_node" type="graph_planner_node"  respawn="true" output="screen">
+        <param name="csv_path"                  value="$(arg csv_path)" />
+        <param name="robot_postion_topic"       value="$(arg robot_postion_topic)" />
+        <param name="use_rviz_goal"       value="$(arg use_rviz_goal)" />
+    </node>
+</launch>
